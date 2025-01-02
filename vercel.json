@@ -1,0 +1,23 @@
+{
+    "builds": [
+        {
+            "src": "chemoventry/wsgi.py",
+            "use": "@vercel/python",
+            "config": {
+                "maxLambdaSize": "15md",
+                "runtime": "python3.12.3",
+                "buildCommand": "bash setup.sh"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "chemoventry/wsgi.pg": ""
+        },
+        {
+            "src":"/satic/(.*)",
+            "dest":"/static/$1"
+        }
+    ]
+}
