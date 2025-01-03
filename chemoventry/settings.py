@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "chemoventry.onrender.com",
+    "chemoventryapi.onrender.com",
     ".vercel.app",
     ".github.dev",
     "localhost",
