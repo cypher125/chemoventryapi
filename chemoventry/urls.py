@@ -29,9 +29,9 @@ schema_view = get_schema_view( # new
  openapi.Info(
  title="Chemoventory API",
  default_version="v1",
- description="A sample API for learning DRF",
+ description="A robust RESTful API for managing chemical inventory and safety compliance. Built with secure JWT authentication and designed for scalability, it supports CRUD operations, inventory tracking, user roles, and detailed reporting via a web-based system.",
  terms_of_service="https://www.google.com/policies/terms/",
- contact=openapi.Contact(email="hello@example.com"),
+ contact=openapi.Contact(email="osawayecyrus@gmail.com"),
  license=openapi.License(name="BSD License"),
  ),
  public=True,
