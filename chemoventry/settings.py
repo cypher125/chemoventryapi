@@ -114,6 +114,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:6789",
     "https://chemoventry.vercel.app",
+    "https://chemoventry.*",
+    "https://chemoventry*",
 ] 
 
 CORS_ALLOW_HEADERS = [
